@@ -1,3 +1,17 @@
+/* fonts */
+@font-face {
+	font-family: 'Saira Semi Condensed';
+	src: url('fonts/Saira-Semi-Condensed/otf/SairaSemiCondensed-Regular.otf');
+	src: url('fonts/Saira-Semi-Condensed/eot/SairaSemiCondensed-Regular.eot') format('embedded-opentype'),
+		 url('fonts/Saira-Semi-Condensed/woff2/SairaSemiCondensed-Regular.woff2') format('woff2'),
+		 url('fonts/Saira-Semi-Condensed/woff/SairaSemiCondensed-Regular.woff') format('woff'),
+		 url('fonts/Saira-Semi-Condensed/ttf/SairaSemiCondensed-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+/* whole website itself */
 :root {
-    background-color: aquamarine;
+    background-color: rgb(22,22,22);
+    color: white;
+    text-shadow: rgba(255,255,255,0.15) 0 0 15px;
 }
