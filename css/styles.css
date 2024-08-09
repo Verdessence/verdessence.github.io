@@ -4,9 +4,62 @@
     color: white;
     text-shadow: rgba(255,255,255,0.15) 0 0 15px;
 }
-.something {
+.banner {
     background: rgb(88,88,88);
 }
+.rainbow {
+    animation: rainbow 5s infinite linear;
+}
+/* Keyframes */
+@keyframes rainbow {
+    0% {color: red;}
+    8.33% {color: orange;}
+    16.66% {color: yellow;}
+    25% {color: yellowgreen;}
+    33.33% {color: green;}
+    41.66% {color: skyblue;}
+    50% {color: blue;}
+    58.33% {color: indigo;}
+    66.66% {color: purple;}
+    75% {color: magenta;}
+    83.33% {color: pink;}
+    91.66% {color: lightcoral;}
+    100% {color: red;}
+}
+/* dont even wanna see the shit below */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*===================================*/
 /*===============FONTS===============*/
 /*===================================*/
