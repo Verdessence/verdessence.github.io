@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    </head>
+    <body class="saira-semi-condensed-regular">
+        <h1>Player Stats</h1>
+        <div id="markdown-content"></div>
+
+        <script>
+            // Place the markdown content inside a string
+            const markdownText = `
+## Crusader - Crusaderessence
+* HP: 100
+* AMR: 100 (25 per turn) *Regenerates after your turn.*  
+* ATK: 11
+* RNGE: 1 tile
+
+### Skills
+#### Braver 
+Unleashes a devastating blow on an enemy. 
+* 15 ATK (Cooldown 1 turn)
+
+#### Focused Thrust
+Using the blade, Thrust and dash 2 tiles towards an enemy. Pushes the enemy also  
+* 8 ATK (Cooldown 2 turns) / 1
+
+### Spells
+#### Fire
+Casts a fireball at an enemy 3 tiles away.  
+* 15 ATK (on regular enemies, humans)  
+* 5 ATK (on fire-resistant enemies, robots)  
+* 25 ATK (on fire-weak enemies)  
+(Cooldown 1 turn)
+
+### Tags
+#### The Wanderer
+*The Wanderer, while mysterious, shows a stoic and courageous demeanor in fights, his parrying technique is unique only to him. (ATTACKER)*
+
+HP: 150  
+AMR: 100 (no regen)  
+ATK: 10  
+TYPE: 1 tile in front
+
+##### Skills
+###### Parry
+*"Hit me I dare you!"*  
+* Counterattacks when attacked, 20 ATK applied?
+
+## Archer - Emmanuel Mac AKA Ron
+HP: 80
+AMR: 60 (12 per turn) / 52
+ATK: 11 /
+RNGE: 3 tiles in front
+### Skills
+#### Stun Arrow 
+Prevents an enemy from acting for their turn. 
+* 5 ATK (Cooldown 2 turns)
+#### Quickstep
+Moves 3 tiles in straight lines (2 tiles diagonally) (Cooldown 1 turn)
+### Spells
+#### Spectral Archer
+Creates a spectral archer on a chosen tile on the field.
+- Has 8 ATK, 3 tile distance
+- Has access to Quickstep
+(Cooldown 3 turns)
+### Tags
+#### Construction Worker
+HP: 5
+AMR: 0
+ATK: 1
+TYPE: 1 tile in front
+## Medic - Melaninus Aidington
+HP: 70
+AMR:  40 (10 per turn) / 20
+ATK: 8
+RNGE: 1 tile
+### Skills
+#### Pink Finger 
+Buffs a user.
+* +7 ATK or HP (Cooldown 1 turn)
+#### Ebony Aegis
+Removes debuffs from 1 party member and prevents any from taking effect for 1 turn. (Cooldown 2 turns)
+#### Careful Dose
+Heals a party member by $7 + n$ HP every turn for 2 turns.
+* Where $n$ is the level of a player being casted.
+## Trader - Cytaxes
+HP: 90
+AMR:  50 (10 per turn) / 45 
+ATK: 9
+RNGE: 1 tile
+### Skills
+#### Bomb 
+Throw a bomb from the backpack that hits enemies 2 tiles away in a 3x3 area.
+* 15 ATK (Cooldown 3 turns)
+#### Slide
+Slide 2-4 tiles, deal base dmg if hitting an enemy and goes through them. (Cooldown 2 turns)
+#### Grappling Hook
+Throw a hook at an enemy or friend and pull them to the user or pull user to. 4-6 tile reach, can't be under. (Cooldown 3 turns)
+## Items
+### Unique Blood
+XP is done by collecting Unique blood. Unique blood is looted from special enemies. Once Unique Blood is used, you can increase any stat by the tier amount of the act. Domini Blood is given by any sort of Domini except Desper and increases all stats by the Act tier amount.
+**Act 1**
+
+HP + 10
+AMR +5
+ATK+ 1
+
+**Act 2**
+
+HP + 20
+AMR +10
+ATK+ 2
+
+**Act 3**
+
+HP + 30
+AMR +15
+ATK+ 3
+`;
+
+            // Convert the markdown content to HTML
+            document.getElementById('markdown-content').innerHTML = marked.parse(markdownText);
+        </script>
+    </body>
+</html>
