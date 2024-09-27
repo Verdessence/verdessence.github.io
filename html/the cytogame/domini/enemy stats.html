@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <link rel="stylesheet" href="../../../css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+        <script src="../../../js/common.js"></script>
+    </head>
+    <body class="saira-semi-condensed-regular">
+        <h1 id="enemies">Enemies</h1>
+<h2 id="goblin">Goblin</h2>
+<ul>
+<li>HP: 30</li>
+<li>AMR: 0</li>
+<li>ATK: 1</li>
+<li>MOVE/RNGE: 1 tile in front</li>
+</ul>
+<h2 id="chainmail-goblin">Chainmail Goblin</h2>
+<ul>
+<li>HP: 30 </li>
+<li>AMR: 20 </li>
+<li>ATK: 1</li>
+<li>TYPE: 1 tile in front </li>
+</ul>
+<h2 id="goblin-spearman">Goblin Spearman</h2>
+<ul>
+<li>HP: 20</li>
+<li>AMR: 0</li>
+<li>ATK: 5</li>
+<li>TYPE: 1 tile in front </li>
+</ul>
+<h2 id="goblin-scout">Goblin Scout</h2>
+<ul>
+<li>HP: 10 </li>
+<li>AMR: 0</li>
+<li>ATK: 2</li>
+<li>TYPE: 1 tile in front</li>
+</ul>
+<h2 id="biggus-the-leader">Biggus the Leader</h2>
+<ul>
+<li>HP:  50 </li>
+<li>AMR:  0</li>
+<li>ATK:  10</li>
+<li>TYPE:  3x3 tile around user</li>
+</ul>
+<h2 id="dagger-bandit">Dagger Bandit</h2>
+<ul>
+<li>HP: 50    </li>
+<li>AMR: 0</li>
+<li>ATK: 10</li>
+<li>TYPE: 1 tile in front</li>
+</ul>
+<h2 id="bow-bandit">Bow Bandit</h2>
+<ul>
+<li>HP:  50    </li>
+<li>AMR:  0</li>
+<li>ATK:  5</li>
+<li>TYPE:  3 tiles in front</li>
+</ul>
+<h2 id="katana-bandit">Katana Bandit</h2>
+<ul>
+<li>HP:  50</li>
+<li>AMR:  0</li>
+<li>ATK:  5</li>
+<li>TYPE:  1 tile in front</li>
+</ul>
+<h2 id="camp-boss-lunatic">Camp Boss Lunatic</h2>
+<ul>
+<li>HP:  3</li>
+<li>AMR:  0</li>
+<li>ATK: 30</li>
+<li>TYPE:  2 tile swipe, applicable right or left</li>
+</ul>
+<h2 id="construction-worker">Construction Worker</h2>
+<ul>
+<li>HP: 5</li>
+<li>AMR: 0</li>
+<li>ATK: 1</li>
+<li>TYPE: 1 tile in front</li>
+</ul>
+<h2 id="royal-rex-spearman">Royal Rex Spearman</h2>
+<ul>
+<li>HP:  45</li>
+<li>AMR:  0</li>
+<li>ATK:  12</li>
+<li>TYPE:  2 tiles in front</li>
+</ul>
+<h2 id="royal-rex-swordsman">Royal Rex Swordsman</h2>
+<ul>
+<li>HP:  35</li>
+<li>AMR:  0</li>
+<li>ATK:  10</li>
+<li>TYPE:  1 tile in front</li>
+</ul>
+<h2 id="royal-rex-halberd">Royal Rex Halberd</h2>
+<ul>
+<li>HP:  45</li>
+<li>AMR:  20 (no regen)</li>
+<li>ATK:  25</li>
+<li>TYPE:  2 tile swipe, applicable right or left</li>
+</ul>
+<h2 id="rex-the-iii-the-betrayer">Rex the III / The Betrayer</h2>
+<ul>
+<li>HP: 10</li>
+<li>AMR:  0</li>
+<li>ATK:  5</li>
+<li>TYPE: 1 tile in front</li>
+</ul>
+<h2 id="rex-the-ii">Rex the II</h2>
+<ul>
+<li>HP:  80</li>
+<li>AMR:  20 (no regen)</li>
+<li>ATK:  39</li>
+<li>TYPE: 1 tile in front</li>
+</ul>
+<h2 id="the-betrayer">The Betrayer</h2>
+<ul>
+<li>HP: 100 / 0</li>
+<li>AMR: 0</li>
+<li>ATK: 25</li>
+<li>TYPE: 3 tile swipe front</li>
+</ul>
+<h1 id="bosses">Bosses</h1>
+<h2 id="the-wanderer">The Wanderer</h2>
+<ul>
+<li>HP: 150 / 16</li>
+<li>AMR: 0 </li>
+<li>ATK: 20 </li>
+<li>TYPE: 1 tile in front</li>
+</ul>
+<h3 id="skills">Skills</h3>
+<h4 id="parry">Parry</h4>
+<p><em>&quot;Hit me I dare you!&quot;</em></p>
+<ul>
+<li>Counterattacks when attacked, dealing 2x of his base ATK.</li>
+</ul>
+<h4 id="uppercut">Uppercut</h4>
+<ul>
+<li>Launches the attacked into the air, lasts for 1 turn, 20 ATK on hit and on landing </li>
+</ul>
+<h4 id="dash">Dash</h4>
+<ul>
+<li>Dashes towards a target infront of him, dealing 30 ATK. </li>
+</ul>
+<h4 id="true-combo">True Combo</h4>
+<ul>
+<li>Dash -&gt; Uppercut -&gt; Parry</li>
+</ul>
+<h2 id="rex-the-great">Rex the Great</h2>
+<ul>
+<li>HP: 150 / 21</li>
+<li>AMR: 0</li>
+<li>ATK: 20</li>
+<li>TYPE: 3 tile swipe</li>
+</ul>
+<h3 id="skills">Skills</h3>
+<h4 id="rexcano">Rexcano</h4>
+<ul>
+<li>Abyss Geyser or smthng</li>
+<li>Summons a geyser that spawns on every player, and emits a purple beam after the player&#39;s turns are up.</li>
+</ul>
+<h4 id="rex-s-equinox">Rex&#39;s Equinox</h4>
+<ul>
+<li>Summons a zigzag of lines at a random angle and length, emitting (?)</li>
+<li>The skill will fail to cast if no one is on the line. </li>
+</ul>
+<h4 id="cross-of-the-rex-who-is-great">Cross Of The Rex Who Is Great</h4>
+<ul>
+<li>Summons a 3x3 square, with a 3x1 line on the middle at Rex, increasing the range into a (\Phi) like symbol once all moves end, and then filling the empty spaces on the 3rd iteration. emitting 100 ATK if anyone is on the range.</li>
+<li>The attack deals 20 ATK to itself, though.<h2 id="desper-the-artificial-">Desper the Artificial:</h2>
+</li>
+<li>HP: 1</li>
+<li>AMR: 100 (no regen)</li>
+<li>ATK: 30</li>
+<li>TYPE: 2 tile swipe, applicable left or right<h3 id="skills">Skills</h3>
+<h4 id="beam">Beam</h4>
+</li>
+<li>Fires a beam of infinite range in front of him, dealing 30 ATK</li>
+</ul>
+<h1 id="superbosses-">Superbosses?</h1>
+<h2 id="niti-">Niti:</h2>
+<p><em>Ancient being, or something, IDC</em></p>
+<ul>
+<li>HP: ???</li>
+<li>AMR: 0</li>
+<li>ATK: 65</li>
+<li>Type: 5 tiles in front</li>
+</ul>
+    </body>
+</html>
