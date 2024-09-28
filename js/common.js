@@ -38,15 +38,18 @@ function time(eventId, startTimeString, endTimeString, timeZone, note) {
     const endTime = new Date(`${endTimeString}${timeZone}`);
 
     const optionsDate = {
-         year: 'numeric', month: 'long', weekday: 'long', day: 'numeric',
+        year: 'numeric', month: 'long', weekday: 'long', day: 'numeric',
     };
     const optionsTime = {
         hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'long',    
     };
+    const optionsEndTime = {
+        year: 'numeric', month: 'long', weekday: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'long',    
+    };
 
     const localTimeString = startTime.toLocaleString(undefined, optionsDate);
     const localStartTimeString = startTime.toLocaleString(undefined, optionsTime);
-    const localEndTimeString = endTime.toLocaleString(undefined, optionsTime);
+    const localEndTimeString = endTime.toLocaleString(undefined, optionsEndTime);
 
     const eventElement = document.createElement('div');
     eventElement.innerHTML = `
@@ -78,6 +81,6 @@ const events = [
     startTimeString: "2024-12-23T08:00:00",
     endTimeString: "2025-01-01T00:00:00",
     timeZone: "+08:00",
-    note: ""
+    note: "chrysler!"
     }
 ];
