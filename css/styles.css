@@ -26,6 +26,12 @@
     91.66% {color: lightcoral;}
     100% {color: red;}
 }
+.right {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 /* dont even wanna see the fonts below */
 
 

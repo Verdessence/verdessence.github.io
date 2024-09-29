@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../../../css/styles.css">
+        <script src="../../../../js/common.js"></script>        
+    </head>
+    <body class="saira-semi-condensed-regular">
+        <center><h1>Cyto - Cytax</h1></center>
+        <h2 style="margin-left: 1.25em;">Stats:</h2>
+        <ul>
+            <li>HP: 90</li>
+            <li>AMR: 50 (10 per turn)</li>
+            <li>ATK: 9 </li>
+            <li>TYPE: 1 tile</li>
+        </ul>
+        <h2 style="margin-left: 1.25em;">Skills:</h2>
+        <!-- First Three Skills -->
+        <div style="display: flex; justify-content: space-between;">
+
+            <!-- Bomb -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: rgb(239, 184, 56); width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Bomb</h1>
+                        <p>Throws a bomb from the backpack that hits enemies 2 tiles away in a 3x3 area.</p>
+                        <li>15 ATK (Cooldown 3 turns)</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/Bomb.png" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: rgb(239, 184, 56); width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Slide</h1>
+                        <p>Slide 2-4 tiles, deals base DMG if hitting an enemy and goes through them.</p>
+                        <li>(Cooldown 2 turns)</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/Slide.png" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grappling Hook -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: rgb(239, 184, 56); width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Grappling Hook</h1>
+                        <p>Throw a hook at an enemy or friend and pull them to the user or pull user to. 4-6 tile reach, can't be under.</p>
+                        <li>(Cooldown 3 turns)</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/Grappling Hook.png" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Second Three Skills -->
+        <div style="display: flex; justify-content: space-between;">
+
+            <!-- Gauss Fuel -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: rgb(239, 184, 56); width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Gauss Fuel</h1>
+                        <p>Cover a projectile for next turn in Gauss Fuel to inflict Burning, mixes with Bomb to create "Fire Bomb" that does 20 ATK.</p>
+                        <li>(Cooldown 2 turns)</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/placeholder.jpg" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pocket Dust -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: rgb(239, 184, 56); width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Pocket Dust</h1>
+                        <p>At a 1 tile range, throw pocket dust at the enemy for 1 dmg and stun them for 1 turn.</p>
+                        <li>(Cooldown 1 turn)</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/Braver.png" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <h2 style="margin-left: 1.25em;">Special Skills:</h2>
+        <!-- First Three Special Skills -->
+        <div style="display: flex; justify-content: space-between;">
+
+            <!-- Concoctive Barrel -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: rgb(239, 184, 56); width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Concoctive Barrel</h1>
+                        <p>Place down 30 HP barrel. The barrel can store 3 tangible spell/skills such as projectiles or constructs. The barrel can be picked up and thrown by the user for 3 tiles at an enemy to inflict all debuffs and damage done by the stored objects + 30 dmg.</p>
+                        <ul>
+                            <li>Grappling Hook can be used to swing the barrel at 5-6 tiles and deal +10 damage.</li>
+                            <li>The barrel, stored with Gauss fuel, will explode in a 3x3 area.</li>
+                            <li>The barrel can be stood on top of to avoid ground attacks, but it can still be damaged by those attacks.</li>
+                            <li>The barrel will explode when destroyed, and it is capable of damaging allies.</li>
+                        </ul>
+                            <li>(Cooldown 8 turns)</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/placeholder.jpg" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <h2 style="margin-left: 1.25em;">Spells:</h2>
+
+        <h2 style="margin-left: 1.25em;">Tags:</h2>
+    </body>
+</html>

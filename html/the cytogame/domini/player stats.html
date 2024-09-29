@@ -1,119 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <link rel="stylesheet" href="../../../css/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
         <script src="../../../js/common.js"></script>
     </head>
     <body class="saira-semi-condensed-regular">
-        <h1>Player Stats</h1>
-            <h2 id="crusader-verdusader">Crusader - Verdusader</h2>
-            <p>HP: 100 <br>
-            AMR: 100 (25 per turn)
-            <em>Regenerates after your turn.</em> <br>
-            ATK: 11 <br> 
-            TYPE: 1 tile</p>
-            <h3 id="skills">Skills</h3>
-            <h4 id="braver">Braver</h4>
-            <p>Unleashes a devastating blow on an enemy. </p>
-            <ul>
-            <li>15 ATK (Cooldown 1 turn)</li>
-            </ul>
-            <h4 id="focused-thrust">Focused Thrust</h4>
-            <p>Using the blade, Thrust and dash 2 tiles towards an enemy. Pushes the enemy also</p>
-            <ul>
-            <li>8 ATK (Cooldown 2 turns)</li>
-            </ul>
-            <h3 id="spells">Spells</h3>
-            <h4 id="fire">Fire</h4>
-            <p>Casts a fireball at an enemy 3 tiles away.</p>
-            <ul>
-            <li>15 ATK (on regular enemies, humans)</li>
-            <li>5 ATK (on fire resistant enemies, robots)</li>
-            <li>25 ATK (on fire weak enemies)
-            (Cooldown 1 turn)</li>
-            </ul>
-            <h3 id="tags">Tags</h3>
-            <h4 id="the-wanderer">The Wanderer</h4>
-            <p><em>The Wanderer, while mysterious, shows a stoic and courageous demeanor in fights, his parrying technique is unique only to him. (ATTACKER)</em></p>
-            <p>HP: 150 <br>
-            AMR: 100 (no regen) <br>
-            ATK: 10 <br>
-            TYPE: 1 tile in front</p>
-            <h5 id="skills">Skills</h5>
-            <h6 id="parry">Parry</h6>
-            <p><em>&quot;Hit me I dare you!&quot;</em></p>
-            <ul>
-            <li>Counterattacks when attacked, 20 ATK applied?</li>
-            </ul>
-            <h2 id="archer-emmanuel-mac-aka-ron">Archer - Emmanuel Mac AKA Ron</h2>
-            <p>HP: 80 <br>
-            AMR: 60 (12 per turn) <br>
-            ATK: 11 <br>
-            TYPE: 3 tiles in front</p>
-            <h3 id="skills">Skills</h3>
-            <h4 id="stun-arrow">Stun Arrow</h4>
-            <p>Prevents an enemy from acting for their turn. </p>
-            <ul>
-            <li>5 ATK (Cooldown 2 turns)</li>
-            </ul>
-            <h4 id="quickstep">Quickstep</h4>
-            <p>Moves 3 tiles in straight lines (2 tiles diagonally) (Cooldown 1 turn)</p>
-            <h3 id="spells">Spells</h3>
-            <h4 id="spectral-archer">Spectral Archer</h4>
-            <p>Creates an invulnerable spectral archer on a chosen 5 tile radius from Emmanuel.</p>
-            <ul>
-            <li>Has 8 ATK, 3 tile distance</li>
-            <li>Has access to Quickstep</li>
-            <li>Last 3 turns
-            (Cooldown 3 turns)</li>
-            </ul>
-            <h3 id="tags">Tags</h3>
-            <h4 id="construction-worker">Construction Worker</h4>
-            <p>HP: 5 <br>
-            AMR: 0 <br>
-            ATK: 1 <br>
-            TYPE: 1 tile in front</p>
-            <h2 id="medic-nephy">Medic - Nephy</h2>
-            <p>HP: 70 <br>
-            AMR:  35 (10 per turn) <br>
-            ATK: 2 <br>
-            TYPE: 1 tile</p>
-            <h3 id="skills">Skills</h3>
-            <h4 id="invigorate">Invigorate</h4>
-            <p>Buffs a user.</p>
-            <ul>
-            <li>+7 ATK or HP </li>
-            <li>Lasts for 2 turns.</li>
-            <li>(Cooldown 1 turn)</li>
-            </ul>
-            <h4 id="cleaning-clearing">Cleaning &amp; Clearing</h4>
-            <p>Removes debuffs from 1 party member and prevents any from taking effect for 1 turn. (Cooldown 2 turns)</p>
-            <h4 id="careful-dose">Careful Dose</h4>
-            <p>Heals a party member by \(7 + n\) HP every turn or damage to an enemy for an equal amount and duration.</p>
-            <ul>
-            <li>Where \(n\) is the level of a player being casted.</li>
-            </ul>
-            <h2 id="trader-cytax">Trader - Cytax</h2>
-            <p>HP: 90 <br>
-            AMR:  50 (10 per turn) <br>
-            ATK: 9 <br>
-            TYPE: 1 tile</p>
-            <h3 id="skills">Skills</h3>
-            <h4 id="bomb">Bomb</h4>
-            <p>Throw a bomb from the backpack that hits enemies 2 tiles away in a 3x3 area.</p>
-            <ul>
-            <li>15 ATK (Cooldown 3 turns)</li>
-            </ul>
-            <h4 id="slide">Slide</h4>
-            <p>Slide 2-4 tiles, deal base dmg if hitting an enemy and goes through them. 
-            (Cooldown 2 turns)</p>
-            <h4 id="grappling-hook">Grappling Hook</h4>
-            <p>Throw a hook at an enemy or friend and pull them to the user or pull user to. 4-6 tile reach, can&#39;t be under. 
-            (Cooldown 3 turns)</p>
+        <h1><center>Player Stats</center></h1>
+        <div style="display: inline-block; text-align: center; width:100%">
+            <big><a href="player stats/verd.html">Verd</a></big><br>
+            <big><a href="player stats/cyto.html">Cyto</a></big><br>
+            <big><a href="player stats/mac.html">Mac</a></big><br>
+            <big><a href="player stats/shelber.html">Shelber</a></big>
+        </div>
+
             <h2 id="items">Items</h2>
             <h3 id="unique-blood">Unique Blood</h3>
             <p>XP is done by collecting Unique blood. Unique blood is looted from special enemies. Once Unique Blood is used, you can increase any stat by the tier amount of the act. Domini Blood is given by any sort of Domini except Desper and increases all stats by the Act tier amount.</p>

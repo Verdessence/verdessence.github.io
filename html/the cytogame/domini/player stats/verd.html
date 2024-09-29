@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <link rel="stylesheet" href="../../../../css/styles.css">
+        <script src="../../../../js/common.js"></script>        
+    </head>
+    <body class="saira-semi-condensed-regular">
+        <center><h1>Verd - Verdusader</h1></center>
+        <h2 style="margin-left: 1.25em;">Stats:</h2>
+        <ul>
+            <li>HP: 120</li>
+            <li>AMR: 125 (25 per turn) <em>Regenerates after your turn.</em></li>
+            <li>ATK: 14 </li>
+            <li>TYPE: 1 tile</li>
+        </ul>
+        <h2 style="margin-left: 1.25em;">Skills:</h2>
+        <!-- First Three Skills -->
+        <div style="display: flex; justify-content: space-between;">
+
+            <!-- Braver -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: firebrick; width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Braver</h1>
+                        <p>Unleashes a devastating blow on an enemy.</p>
+                        <li>15 ATK (Cooldown 1 turn)</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/Braver.png" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Focused Thrust -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: firebrick; width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Focused Thrust</h1>
+                        <p>Using the blade, Thrust and dash 2 tiles towards an enemy. Pushes the enemy also</p>
+                        <li>8 ATK (Cooldown 2 turns)</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/Focused Thrust.png" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fire Flurry -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: firebrick; width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Fire Flurry</h1>
+                        <p>Casts the blade in fire and sweeps a 3x3 grid around Verdusader.</p>
+                        <li>Base ATK + Burning</li>
+                            <ul>
+                                <li>Burning deals 10 damage per turn, lasting for 2 turns.</li>
+                            </ul>
+                        <li>(Cooldown 2 turns, puts Fire on cooldown)</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/Fire Flurry.png" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Second Three Skills -->
+        <div style="display: flex; justify-content: space-between;">
+
+            <!-- Counterattack -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: firebrick; width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Counterattack</h1>
+                        <p>Puts Verdusader on a ready stance, once attacked, resist 50% of ATK received, disable KB, and deal 1.5x base ATK.</p>
+                        <li>\(\text{Base ATK} \cdot 1.5 \)  (Cooldown 3 turns)</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/Braver.png" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <h2 style="margin-left: 1.25em;">Special Skills:</h2>
+        <!-- First Three Special Skills -->
+        <div style="display: flex; justify-content: space-between;">
+
+            <!-- Grudge Slash -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: firebrick; width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Grudge Slash</h1>
+                        <p>Harnesses the full damage into the blade, whilst recieving half of the damage, and releases it in an arc slash when specified.</p>
+                        <ul>
+                            <li>The amount of arcs depend on how long the skill is casted again. (Maximum of 6 turns)</li>
+                            <li>Base ATK + Amount of DMG received</li>
+                            <li>Infinite Range</li>
+                            <li>(Cooldown 5 turns)</li>
+                        </ul>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/Grudge Slash.png" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <h2 style="margin-left: 1.25em;">Spells:</h2>
+        <!-- First Three Spells -->
+        <div style="display: flex; justify-content: space-between;">
+
+            <!-- Fire -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: firebrick; width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">Fire</h1>
+                        <p>Casts a fireball at an enemy 3 tiles away.</p>
+                        <ul>
+                            <li>15 ATK (on regular enemies, humans)</li>
+                            <li>5 ATK (on fire resistant enemies, robots)</li>
+                            <li>25 ATK (on fire weak enemies)</li>
+                        </ul>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/Fire.png" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <h2 style="margin-left: 1.25em;">Tags:</h2>
+        <!-- First Three Tags -->
+        <div style="display: flex; justify-content: space-between;">
+
+            <!-- The Wanderer -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; background-color: firebrick; width: 35%;" class="banner">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex-basis: 70%;">
+                        <h1 style="margin-top: -0.5em;">The Wanderer</h1>
+                        <p><em>
+                        The Wanderer, while mysterious, shows a stoic and courageous demeanor in fights, his parrying technique is unique only to him. (ATTACKER)
+                        </em></p>
+                        <ul>
+                            <li>HP: 150</li>
+                            <li>AMR: 100 (no regen)</li>
+                            <li>ATK: 10</li>
+                            <li>TYPE: 1 in front</li>
+                        </ul>
+                            <h2>Skills</h2>
+                                <h3>Parry</h3>
+                                    <p><em>"Hit me I dare you!"</em></p>
+                                    <li>Counterattacks when attacked, 2x Base ATK.</li>
+                    </div>
+                    <div style="flex-basis: 30%; text-align: right;">
+                        <img src="../../../../images/placeholder.jpg" style="max-width: 100px; height: auto;">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
