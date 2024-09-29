@@ -32,6 +32,136 @@
   margin-right: auto;
   width: 100%;
 }
+
+/* Ability Display */
+/* Verd */
+.braver {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0.25) 100%), 
+  url("../images/Braver.png");
+  background-position: center;
+  background-repeat: initial;
+  background-size: cover;
+}
+.focusedthrust {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 1) 35%, rgba(178, 34, 34, 0.25) 85%), 
+  url("../images/Focused\ Thrust.png");
+  background-position: right;
+  background-repeat: initial;
+  background-size: auto;
+}
+.fireflurry {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0.25) 100%), 
+  url("../images/Fire\ Flurry.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.grudgeslash {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0.25) 50%, rgba(178, 34, 34, 1) 100%), 
+  url("../images/Grudge\ Slash.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fire {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 100%),
+  linear-gradient(-90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 15%),  
+  url("../images/Fire.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.placeholderimgverd {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 100%),
+  url("../images/placeholder.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Mac */
+.stunarrow {
+  position: relative;
+  background: rgb(50, 55, 60);
+  background-image:
+  linear-gradient(90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0.25) 100%),
+  linear-gradient(-90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0) 25%),
+  url("../images/Stun\ Arrow.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.quickstep {
+  position: relative;
+  background: rgb(50, 55, 60);
+  background-image:
+  linear-gradient(90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0.25) 50%),  
+  linear-gradient(-90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0.25) 50%),
+  url("../images/Quickstep.png");  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.spectralarcher {
+  position: relative;
+  background: rgb(50, 55, 60);
+  background-image:
+  linear-gradient(90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0.25) 75%),
+  linear-gradient(-90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0) 75%), 
+  url("../images/Spectral\ Archer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ricochetingarrow {
+  position: relative;
+  background: rgb(50, 55, 60);
+  background-image:
+  linear-gradient(90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0.25) 35%),
+  linear-gradient(-90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0) 35%), 
+  linear-gradient(180deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0) 35%), 
+  linear-gradient(0deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0) 35%), 
+  url("../images/Ricocheting\ Arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.placeholderimgmac {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0) 100%),
+  linear-gradient(-90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0) 100%),
+  url("../images/placeholder.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*
+body{
+ background: rgb(101,66,126);
+ background-image:
+  url("https://www.transparenttextures.com/patterns/food.png"),
+  url("https://www.transparenttextures.com/patterns/notebook-dark.png"),
+  linear-gradient(149deg, rgba(101,66,126,1) 0%, rgba(255,68,48,1) 50%, rgba(255,253,137,1) 100%);
+}
+*/
 /* dont even wanna see the fonts below */
 
 
