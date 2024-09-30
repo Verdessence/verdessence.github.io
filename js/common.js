@@ -66,6 +66,12 @@ function timedates(events) {
 
 const events = [
     {
+        startTimeString: "2024-10-09T14:00:00",
+        endTimeString: "2024-10-09T23:59:59",
+        timeZone: "+08:00",
+        note: "Same Applies until 09:00 October 12 Philippine Time <br> Midterms"
+    },
+    {
         startTimeString: "2024-11-01T08:00:00",
         endTimeString: "2024-11-01T23:59:59",
         timeZone: "+08:00",
