@@ -6,12 +6,12 @@
         <script src="../../../../js/common.js"></script>        
     </head>
     <body class="saira-semi-condensed-regular">
-        <center><h1>Verd - Verdusader</h1></center>
+        <center><h1>Verd - Infernal Verdusader</h1></center>
         <h2 style="margin-left: 1.25em;">Stats:</h2>
         <ul>
-            <li>HP: 120</li>
-            <li>AMR: 140 (25 per turn)</li>
-            <li>ATK: 17 </li>
+            <li>HP: 130</li>
+            <li>AMR: 155 (35 per turn)</li>
+            <li>ATK: 22 </li>
             <li>TYPE: 1 tile</li>
         </ul>
         <h2 style="margin-left: 1.25em;">Skills:</h2>
@@ -19,7 +19,7 @@
         <div style="display: flex; justify-content: space-between;">
 
             <!-- Braver -->
-            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner braver">
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner braver obsolete">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
                         <h1 style="margin-top: -0.5em;">Braver</h1>
@@ -29,8 +29,19 @@
                 </div>
             </div>
 
+            <!-- Braver+ -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner braverplus">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h1 style="margin-top: -0.5em;">Braver+</h1>
+                        <p>Unleashes a devastating blow on an enemy at a 3x3 area infront of Verd.</p>
+                        <li>15 ATK (Cooldown 1 turn)</li>
+                    </div>
+                </div>
+            </div>
+
             <!-- Focused Thrust -->
-            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner focusedthrust">
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner focusedthrust obsolete">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
                         <h1 style="margin-top: -0.5em;">Focused Thrust</h1>
@@ -40,6 +51,21 @@
                 </div>
             </div>
 
+        </div>
+        <!-- Second Three Skills -->
+        <div style="display: flex; justify-content: space-between;">
+
+            <!-- Focused Thrust+ -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner focusedthrustplus">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h1 style="margin-top: -0.5em;">Focused Thrust+</h1>
+                        <p>Using the blade, Thrust and dash 2 tiles towards an enemy. Pushes the enemy also at a 3 tile area.</p>
+                        <li>8 ATK (Cooldown 2 turns)</li>
+                    </div>
+                </div>
+            </div>
+            
             <!-- Fire Flurry -->
             <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner fireflurry">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -55,10 +81,6 @@
                 </div>
             </div>
 
-        </div>
-        <!-- Second Three Skills -->
-        <div style="display: flex; justify-content: space-between;">
-
             <!-- Counterattack -->
             <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner braver">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -69,6 +91,22 @@
                     </div>
                 </div>
             </div>
+
+        </div>
+        <!-- Third Three Skills -->
+        <div style="display: flex; justify-content: space-between;">
+            
+            <!-- Counterattack+ -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner braverplus">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h1 style="margin-top: -0.5em;">Counterattack+</h1>
+                        <p>Puts Verdusader on a ready stance, once attacked, resist 50% of ATK received, disable KB, and deal 1.5x base ATK on next turn.</p>
+                        <li>\(\text{Base ATK} \cdot 1.5 \)  (Cooldown 3 turns)</li>
+                    </div>
+                </div>
+            </div>
+
             <!-- Prime Mode -->
             <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner placeholderimgverd">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -81,23 +119,35 @@
             </div>
             
         </div>
-
-        <h2 style="margin-left: 1.25em;">Special Skills:</h2>
-        <!-- First Three Special Skills -->
+        <h2 style="margin-left: 1.25em;">Domini Skills:</h2>
+        <!-- First Three Domini Skills -->
         <div style="display: flex; justify-content: space-between;">
 
             <!-- Grudge Slash -->
-            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner grudgeslash">
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner grudgeslash obsolete">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <h1 style="margin-top: -0.5em;">Grudge Slash</h1>
-                        <p>Harnesses the full damage into the blade, whilst recieving half of the damage, and releases it in an arc slash when specified.</p>
-                        <ul>
-                            <li>The amount of arcs depend on how long the skill is casted again. (Maximum of 6 turns)</li>
-                            <li>Base ATK + Amount of DMG received</li>
-                            <li>Infinite Range</li>
-                            <li>(Cooldown 5 turns)</li>
-                        </ul>
-                    </div>
+                    <h1 style="margin-top: -0.5em; margin-right: 2em;">Grudge Slash</h1>
+                    <p>Harnesses the full damage into the blade, whilst recieving half of the damage, and releases it in an arc slash when specified.</p>
+                    <ul>
+                        <li>The amount of arcs depend on how long the skill is casted again. (Maximum of 6 turns)</li>
+                        <li>Base ATK + Amount of DMG received</li>
+                        <li>Infinite Range</li>
+                        <li>(Cooldown 5 turns)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Grudge Slash+ -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner grudgeslashplus">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h1 style="margin-top: -0.5em; margin-right: 2em;">Grudge Slash</h1>
+                    <p>Harnesses the full damage into the blade, whilst recieving half of the damage, and releases it in an arc slash when specified.</p>
+                    <ul>
+                        <li>The amount of arcs depend on how long the skill is casted again. (Maximum of 6 turns)</li>
+                        <li>Base ATK + Amount of DMG received</li>
+                        <li>Infinite Range</li>
+                        <li>(Cooldown 5 turns)</li>
+                    </ul>
                 </div>
             </div>
             
@@ -108,7 +158,7 @@
         <div style="display: flex; justify-content: space-between;">
 
             <!-- Fire -->
-            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner fire">
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner fire obsolete">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
                         <h1 style="margin-top: -0.5em;">Fire</h1>
@@ -117,10 +167,28 @@
                             <li>15 ATK (on regular enemies, humans)</li>
                             <li>5 ATK (on fire resistant enemies, robots)</li>
                             <li>25 ATK (on fire weak enemies)</li>
+                            <li>(Cooldown 1 turn)</li>
                         </ul>
                     </div>
                 </div>
             </div>
+
+            <!-- Fire+ -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner fireplus">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h1 style="margin-top: -0.5em;">Fire+</h1>
+                        <p>Casts a fireball at an enemy 3 tiles away.</p>
+                        <ul>
+                            <li>15 ATK (on regular enemies, humans)</li>
+                            <li>5 ATK (on fire resistant enemies, robots)</li>
+                            <li>25 ATK (on fire weak enemies)</li>
+                            <li>(Cooldown 1 turn)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
             <!-- Fira -->
             <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner fira">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -131,6 +199,7 @@
                             <li>20 ATK (on regular enemies, humans)</li>
                             <li>10 ATK (on fire resistant enemies, robots)</li>
                             <li>40 ATK (on fire weak enemies)</li>
+                            <li>(Cooldown 2 turns)</li>                            
                         </ul>
                     </div>
                 </div>
@@ -138,6 +207,25 @@
             
         </div>
 
+        <!-- Second Three Spells -->
+        <div style="display: flex; justify-content: space-between;">
+            
+            <!-- Firaga -->
+            <div style="padding: 1.25em; border: 5px solid white; margin: 1.25em; width: 35%;" class="banner firaga">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h1 style="margin-top: -0.5em;">Fira</h1>
+                        <p>Casts a 5 radius range of fire around the user. <br> Applies Burning.</p>
+                        <ul>
+                            <li>40 ATK (on regular enemies, humans)</li>
+                            <li>30 ATK (on fire resistant enemies, robots)</li>
+                            <li>80 ATK (on fire weak enemies)</li>
+                            <li>(Cooldown 4 turns)</li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <h2 style="margin-left: 1.25em;">Tags:</h2>
         <!-- First Three Tags -->
         <div style="display: flex; justify-content: space-between;">

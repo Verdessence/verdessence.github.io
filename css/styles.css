@@ -45,6 +45,17 @@
   background-repeat: initial;
   background-size: cover;
 }
+.braverplus {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 75%), 
+  linear-gradient(-90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 75%),
+  url("../images/Braver+.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .focusedthrust {
   position: relative;
   background: firebrick;
@@ -54,6 +65,18 @@
   background-position: right;
   background-repeat: initial;
   background-size: auto;
+}
+
+.focusedthrustplus {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0.25) 45%), 
+  linear-gradient(-90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0.25) 45%),
+  url("../images/Focused\ Thrust+.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .fireflurry {
   position: relative;
@@ -75,6 +98,16 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+.grudgeslashplus {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0.25) 50%, rgba(178, 34, 34, 1) 100%), 
+  url("../images/Grudge\ Slash+.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .fire {
   position: relative;
   background: firebrick;
@@ -86,6 +119,17 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+.fireplus {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 100%),
+  linear-gradient(-90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 15%),  
+  url("../images/Fire+.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .fira {
   position: relative;
   background: firebrick;
@@ -93,6 +137,18 @@
   linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 100%),
   linear-gradient(-90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 15%),  
   url("../images/Fira.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.firaga {
+  position: relative;
+  background: firebrick;
+  background-image:
+  linear-gradient(90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 100%),
+  linear-gradient(-90deg, rgba(178, 34, 34, 1) 0%, rgba(178, 34, 34, 0) 15%),  
+  url("../images/Firaga.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -126,6 +182,17 @@
   linear-gradient(90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0.25) 50%),  
   linear-gradient(-90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0.25) 50%),
   url("../images/Quickstep.png");  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.snipertower {
+  position: relative;
+  background: rgb(50, 55, 60);
+  background-image:
+  linear-gradient(90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0.25) 50%),  
+  linear-gradient(-90deg, rgba(50, 55, 60, 1) 0%, rgba(50, 55, 60, 0.25) 50%),
+  url("../images/Sniper\ Tower.png");  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -207,6 +274,17 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.oilslide {
+  position: relative;
+  background: rgb(239, 184, 56);
+  background-image:
+  linear-gradient(90deg, rgba(239, 184, 56, 1) 0%, rgba(239, 184, 56, 1) 35%, rgba(239, 184, 56, 0.25) 85%), 
+  url("../images/Oil\ Slide.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .grapplinghook {
   position: relative;
   background: rgb(239, 184, 56);
@@ -275,9 +353,9 @@
 /* Shelber */
 .breathethepressure {
   position: relative;
-  background: rgb(239, 184, 56);
+  background: rgb(184, 12, 227);
   background-image:
-  linear-gradient(-90deg, rgba(239, 184, 56, 1) 0%, rgba(239, 184, 56, 0) 35%),
+  linear-gradient(-90deg, rgba(184, 12, 227, 1) 0%, rgba(184, 12, 227, 0) 35%),
   url("../images/Breathe\ the\ Pressure.png");
   background-position: right;
   background-repeat: no-repeat;
@@ -285,9 +363,9 @@
 }
 .reverserecall {
   position: relative;
-  background: rgb(239, 184, 56);
+  background: rgb(184, 12, 227);
   background-image:
-  linear-gradient(-90deg, rgba(239, 184, 56, 1) 0%, rgba(239, 184, 56, 0) 20%),
+  linear-gradient(-90deg, rgba(184, 12, 227, 1) 0%, rgba(184, 12, 227, 0) 20%),
   url("../images/Reverse\ Recall.png");
   background-position: right;
   background-repeat: no-repeat;
@@ -295,10 +373,10 @@
 }
 .placeholderimgshelber {
   position: relative;
-  background: rgb(239, 184, 56);
+  background: rgb(184, 12, 227);
   background-image:
-  linear-gradient(90deg, rgba(239, 184, 56, 1) 0%, rgba(239, 184, 56, 0) 100%),
-  linear-gradient(-90deg, rgba(239, 184, 56, 1) 0%, rgba(239, 184, 56, 0) 100%),
+  linear-gradient(90deg, rgba(184, 12, 227, 1) 0%, rgba(184, 12, 227, 0) 100%),
+  linear-gradient(-90deg, rgba(184, 12, 227, 1) 0%, rgba(184, 12, 227, 0) 100%),
   url("../images/placeholder.jpg");
   background-position: center;
   background-repeat: no-repeat;
